@@ -1,0 +1,11 @@
+.font-family {
+  font-family: "Gabriela", serif;
+}
+.about-img {
+  border-radius: 50%;
+  width: 30%;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
