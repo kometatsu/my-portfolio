@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from "reactstrap";
-import "../../CSS/Header.css";
 
 class Header extends Component {
   constructor(props) {
@@ -10,13 +9,13 @@ class Header extends Component {
     this.onClickLink = this.onClickLink.bind(this);
     this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: false
+      isOpen: false,
     };
   }
 
   toggle() {
     this.setState({
-      isOpen: !this.state.isOpen
+      isOpen: !this.state.isOpen,
     });
   }
 
